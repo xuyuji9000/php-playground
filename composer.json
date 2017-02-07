@@ -1,0 +1,23 @@
+{
+    "name": "yogiman/phpunit-demo",
+    "description": "This is a phpunit demo.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yogiman",
+            "email": "xuyuji9000@163.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap":[
+            "tests",
+            "classes"
+        ]
+    }
+}
