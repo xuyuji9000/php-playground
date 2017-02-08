@@ -3,7 +3,10 @@ This is a PHPUnit demo.
 
 ## Command
 
-phpunit tests/StackTest.php
+`composer install` install dependency
+
+`./vendor/bin/phpunit` execute test
+
 
 ## Error Explanation
 
